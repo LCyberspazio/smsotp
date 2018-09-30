@@ -64,7 +64,10 @@ seek in the text for the first L, the next char will be the starting
 point for encrypting the message.
 
 Imagine the message is "Hello Alice". We all consider lower case and 
-without spaces or marks, then the message became "helloalice".
+without spaces or marks, then the message became "helloalice" and in
+a real case scenario, we consider to also add a padding of nonsense
+characters, like "helloalicezzzbbb" just to harden the thing, but for
+this document purpose we will use "helloalice".
 And this is the beginning of the 'key text' where we are in search of 
 the first 'L'.
 
